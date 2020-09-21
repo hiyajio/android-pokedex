@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#f0f0f0"
+    tools:context=".InfoActivity"
+    >
+
+    <TextView
+        android:id="@+id/nianticText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#222224"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="0.1in"
+        android:text="Image Assets from Pokemon GO! (Niantic)"
+        />
+
+    <Button
+        android:id="@+id/openNianticLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nianticText"
+        android:padding="20dp"
+        android:textColor="#222224"
+        android:layout_margin="5dp"
+        android:text="Open Niantic Website"
+        />
+
+    <TextView
+        android:id="@+id/jsonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openNianticLink"
+        android:textColor="#222224"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="0.1in"
+        android:text="JSON Data from GitHub User Biuni"
+        />
+
+    <Button
+        android:id="@+id/openJSONLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jsonText"
+        android:padding="20dp"
+        android:textColor="#222224"
+        android:layout_margin="5dp"
+        android:text="Open Pokemon GO! JSON"
+        />
+
+    <TextView
+        android:id="@+id/mapText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openJSONLink"
+        android:textColor="#222224"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="App made at Notre Dame with Love"
+        />
+
+    <Button
+        android:id="@+id/openMapLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mapText"
+        android:padding="20dp"
+        android:textColor="#222224"
+        android:layout_margin="5dp"
+        android:text="Open Notre Dame Map"
+        />
+
+    <TextView
+        android:id="@+id/jioText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openMapLink"
+        android:textColor="#222224"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="0.1in"
+        android:text="By Jio Buenviaje"
+        />
+
+    <Button
+        android:id="@+id/openJioLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jioText"
+        android:padding="20dp"
+        android:textColor="#222224"
+        android:layout_margin="5dp"
+        android:text="Open Jio's Website"
+        />
+
+    <TextView
+        android:id="@+id/zachText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openJioLink"
+        android:textColor="#222224"
+        android:textSize="16dp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="0.1in"
+        android:text="And Zachary Sy"
+        />
+
+    <Button
+        android:id="@+id/openZachLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zachText"
+        android:padding="20dp"
+        android:textColor="#222224"
+        android:layout_margin="5dp"
+        android:text="Open Zach's Website"
+        />
+</RelativeLayout>
