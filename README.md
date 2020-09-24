@@ -3,5 +3,5 @@ Documentation of my Notre Dame Fall 2020 Programming Paradigms course Android pr
 Simple pokedex Android app using Picasso and CardView.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/50670255/94203746-f1469500-fe8d-11ea-9f3e-2cef85bef0a7.png" alt="Pokedex App Screenshot"/>
+  <img src="https://user-images.githubusercontent.com/50670255/94203839-294dd800-fe8e-11ea-83c8-5ab9c1ea31c5.png" alt="Pokedex App Screenshot"/>
 </p>
