@@ -7,5 +7,5 @@ Simple pokedex Android app using Picasso and CardView.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/50670255/94203839-294dd800-fe8e-11ea-83c8-5ab9c1ea31c5.png" alt="Pokedex App Screenshot 2"/>
+  <img src="https://user-images.githubusercontent.com/50670255/94250760-a3fb0f80-feef-11ea-8093-b0b7a051f92d.png" alt="Pokedex App Screenshot 2"/>
 </p>
